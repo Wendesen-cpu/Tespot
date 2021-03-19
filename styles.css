@@ -1,1 +1,22 @@
+.logo-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: aqua;
+  text-align: center;
+  height: 100px;
 
+  text-align: center;
+}
+.header-test-center {
+  display: grid;
+  grid-column: ;
+}
+h2 {
+  text-align: center;
+}
+.test-centers {
+}
+img {
+  float: left;
+  width: 350px;
+}
