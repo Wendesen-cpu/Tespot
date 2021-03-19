@@ -1,1 +1,26 @@
 
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+
+}
+#btn1{
+    margin: 20px;
+}
+
+.head{
+    flex:2;
+    background-color: rgb(113, 228, 113);
+}
+
+.bdy{
+    text-align: center;
+    padding: 100px;
+    flex:10;
+}
+
+.foot{
+    flex:1;
+    background-color:rgb(172, 172, 25);
+}
