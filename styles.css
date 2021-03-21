@@ -1,5 +1,9 @@
 
-.mainheader6 {
+*{
+    margin: 0;padding: 0; box-sizing: border-box;
+}
+
+.mainheader6{
     width: 100%;
     height: 100px;
     display: flex;
@@ -8,15 +12,10 @@
     background: #2ec7a6;
 }
 
-.mainheader6 .logo6 {
+.mainheader6 .logo6 img{
     width: 300px;
     height:60px;
     padding-left: 10%;
-
-}
-.main-paragraph6 {
-    text-align: center;
-    padding-left: 20px;
 }
 
 
