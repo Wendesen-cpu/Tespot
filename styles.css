@@ -65,6 +65,23 @@ main{
     flex:1;
     background-color:rgb(172, 172, 25);
 }
+
+
+.my-forms5 {
+    font-size: large;
+    padding-left: 20px;
+}
+
+.submit-btn5 {
+    font-size: large;
+    padding-left: 200px;
+}
+
+.paragraph5 {
+    font-size: large;
+    padding-left: 10px;
+}
+=======
 .main-paragraph6 {
     padding-left: 10px;
 }
