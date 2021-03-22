@@ -1,1 +1,26 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
 
+.logo {
+    position: absolute;
+    align-items: center;
+}
+.header {
+    padding: 5px 15px;
+    background-color: cadetblue;
+    text-align: center;
+    
+}
+.btn {
+    text-align: center;
+}
+.btn button {
+    padding: 10px;
+    background-color: green;
+}
+
+.main-text {
+    padding: 0px 15px;
+}
