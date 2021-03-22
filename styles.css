@@ -11,16 +11,21 @@ body {
     padding: 5px 15px;
     background-color: cadetblue;
     text-align: center;
+    }
     
-}
-.btn {
+.btn3 {
     text-align: center;
+
 }
-.btn button {
+.btn3 button {
+    text-align: center;
     padding: 10px;
     background-color: green;
+
 }
 
-.main-text {
+.main-text3 {
     padding: 0px 15px;
+    
 }
+    
