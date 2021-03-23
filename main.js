@@ -28,9 +28,6 @@ function setupMap(center){
         center:{lat:45.52438539606402, lng: 10.209829250892493}
     });
     map.addControl(new mapboxgl.NavigationControl());
-    
-
-    
 
 }
 
