@@ -19,6 +19,18 @@
     height:60px;
     padding-left: 10%;
 }
+
+.leftsec1{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.rightsec1{
+    display: grid; 
+    grid-template-rows: 1fr 3fr;
+    flex:1;
+}
 .mainheader button{
     padding:10px 45px;
     text-align: center;
@@ -29,11 +41,14 @@
     background: blue;
     margin: 60px;
 }
-main{
+.main{
     width: 100%;
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 40px 10px;
+    height: 80vh;
+   
 }
 
 .myForm2{
@@ -47,14 +62,9 @@ main{
     margin-left: 160px;
 }
 
-.main2{
-    margin-top: 130px;
-    margin-left: 400px;
-    height: 100vh;
-    display: flex;
-    flex-direction:column;
 
-}
+
+
 #btn1{
     margin: 20px;
 }
