@@ -28,18 +28,7 @@ function setupMap(center){
         center:{lat:45.52438539606402, lng: 10.209829250892493}
     });
     map.addControl(new mapboxgl.NavigationControl());
-    
-
-    
 
 }
-
-fetch('https://covid-19-testing.github.io/locations/:state/complete.json')
-   
-  .then(response => response.json())
-  .then(data => console.log(JSON.parse(data)));
-
-
-
 
 
