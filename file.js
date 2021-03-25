@@ -1,4 +1,4 @@
-[
+var file = [
     {
         "id": "1",
         "organization_id": "1",
@@ -737,3 +737,9 @@
         ],
         "regular_schedule": []
     }
+]
+
+    file.forEach(ele=>{
+        console.log(ele.physical_address[0].address_1);
+    })
+
