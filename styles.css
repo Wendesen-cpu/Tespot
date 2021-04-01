@@ -176,14 +176,17 @@ input{
     padding-left: 10px;
 }
 
-.h2-6{
+#h2-6{
     text-align: center;
     padding-top: 20px;
 }
 
 .main-paragraph6 {
+    height: 60vh;
     padding-top: 10px;
     padding-left: 10px;
+    border: 1px rgb(216, 214, 214) solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
