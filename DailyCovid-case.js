@@ -17,15 +17,18 @@ var calculator= ()=>
                       var confirmed = `Total Confirmed Cases: ${element.confirmed}`;
                       var deaths = `Total Death: ${element.deaths}`;
                       var recovered = `Recovered: ${element.recovered}`;
+                      var active = `Active case: ${element.active}`;
                       var conf = document.createElement("p");
                       var deth =document.createElement("p");
                       var reco = document.createElement("p");
                       conf.innerHTML = confirmed;
                       deth.innerHTML = deaths;
                       reco.innerHTML = recovered;
+                      active.innerHTML = active;
                       document.getElementById('covid').appendChild(conf)
                       document.getElementById('covid').appendChild(deth)
                       document.getElementById('covid').appendChild(reco)
+                      document.getElementById('covid').appendChild(active)
                       document.getElementById("state1").value = "";
                       document.getElementById("city1").value = "";
                   }
