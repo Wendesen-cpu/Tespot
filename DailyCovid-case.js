@@ -1,7 +1,7 @@
 // The part about Daily Covid19 cases
 var d = new Date();
 dd = parseFloat(d.getMonth()) ;
-var currentDates = `${d.getMonth()+1}-${d.getDate()-1}-${d.getFullYear()}`;
+var currentDates = `${d.getMonth()-2}-${d.getDate()}-${d.getFullYear()}`;
 var url = `https://covid19.mathdro.id/api/daily/${currentDates}`;
 console.log(url);
 var calculator= ()=>
