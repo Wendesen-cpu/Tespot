@@ -8,34 +8,33 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
     <title>test-centers</title>
-    <style>
-        .recommeded-test-centers{
-            display: flex;
-            
-        }
-    </style>
 </head>
 <body>
     <div class="mainheader">
         <div class="logo">
             <a href="index1.html"><img src="image/logo.png" alt="image"></a>
         </div>
-        <h1 style="margin-right: 600px;">Test Centers</h1>
+        <h1>Test Centers</h1>
     </div>
+        <div class="testcenter">
+            <div class="new-form">
+                <h3>Please Provide State and City</h3><br>
+                <div class="form__div">
+                    <input type="text" class="form__input" id="state" value="">
+                    <label class="form__label">State</label>
+                </div>
 
-    <!--The Api of the mapbox-->
-    <div class="recommeded-test-centers">
-        <div id='map' style='width: 400px; height: 400px;margin: 10px;'></div>
-        <div class="test-centers-details">
-            <h2>Recommended Test Ceters</h2>
-            <p>Adress:Brescia, via Rodi 49</p>
+                <div class="form__div">
+                    <input type="text" class="form__input"  id="city" value="">
+                    <label class="form__label">City</label>
+                </div>
+                <button type="submit" class="form__button" id="important">Search</button><br>
+                <input type="checkbox" class=""  id="important2"><strong>Find test center near me</strong>            
+                </div>
+            <div id="res">
             
+            </div>
         </div>
-    </div>
-  
-
-
-    <script src="main.js"></script>
-  
+<script src ="testCenter.js"></script>
 </body>
 </html>
