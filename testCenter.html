@@ -10,27 +10,34 @@
     <title>test-centers</title>
 </head>
 <body>
-    <div class="mainheader">
+    <nav>
         <div class="logo">
-            <a href="index1.html"><img src="image/logo.png" alt="image"></a>
+            <img src="images/image 1.png" alt="images">
         </div>
-        <h1>Test Centers</h1>
+        <div class="menu">
+        <a href="index1.html">Home</a>
+        <a href="travel.html">Travel</a>
+        <a href="contribute.html">Contribute</a>
+        <a href="testCenter.html">Test Center</a>
+        <a href="DailyCovid-case.html">Covid-19 Alert</a>
     </div>
-        <div class="testcenter">
-            <div class="new-form">
-                <h3>Please Provide State and City</h3><br>
-                <div class="form__div">
-                    <input type="text" class="form__input" id="state" value="">
-                    <label class="form__label">State</label>
-                </div>
+    <div class="testcenter">
+        <h3>Please Provide State and City</h3>
+        <form>
+           <div>  
+            <label class="form-label">State</label>
+            <input type="text"  id="state1" value ="" class="form-input"> 
+        </div>
+        <div>
+            <label  class="form-label">City</label>
+            <input type="text"  id="city1" value ="" class="form-input"> 
+        </div> 
+        <label for="checkbox">Nearby Me</label>
+        <input type="checkbox" name="" id="important2">
+        <button type="submit"  id ="important" class="form-btn">Search</button>
+        </form> 
+            
 
-                <div class="form__div">
-                    <input type="text" class="form__input"  id="city" value="">
-                    <label class="form__label">City</label>
-                </div>
-                <button type="submit" class="form__button" id="important">Search</button><br>
-                <input type="checkbox" class=""  id="important2"><strong>Find test center near me</strong>            
-                </div>
             <div id="res">
             
             </div>

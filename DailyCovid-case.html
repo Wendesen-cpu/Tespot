@@ -8,33 +8,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="mainheader">
+    <nav>
         <div class="logo">
-            <a href="index1.html"><img src="image/logo.png" alt="image"></a>
+            <a href="index1.html"></a><img src="images/image 1.png" alt="images">
         </div>
-        <h1>Daily Covid-19 Cases</h1>
+        <div class="menu">
+        <a href="#">Home</a>
+        <a href="travel.html">Travel</a>
+        <a href="contribute.html">Contribute</a>
+        <a href="testCenter.html">Test Center</a>
+        <a href="DailyCovid-case.html">Covid-19 Alert</a>
     </div>
-    <div class="DailyCovid-case">
+    </nav> 
+    
 ​
 ​        <div class="dailycovid-case1">
-            <div>
-                <h2>Please Provide Country and Region</h2>
+            <h3>Please Provide Country and Region</h3>
+            <form>
+               <div>  
                 <label class="form-label">Country</label>
-                <input type="text"  id="state1" value =""> 
+                <input type="text"  id="state1" value ="" class="form-input"> 
             </div>
             <div>
                 <label  class="form-label">Region</label>
-                <input type="text"  id="city1" value =""> 
+                <input type="text"  id="city1" value ="" class="form-input"> 
             </div>  
-            <button type="submit"  id ="import">Search</button> 
-​
-            <div id="covid">
-​
-            </div>
-        </div >
-​
-        
-    </div>
+            <button type="submit"  id ="import" class="form-btn">Search</button> 
+              ​<div id="covid"></div> 
+​            </form> 
+            
+        </div>
     <script src="DailyCovid-case.js"></script>
 </body>
 </html>
