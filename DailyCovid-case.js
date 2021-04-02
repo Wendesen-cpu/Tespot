@@ -1,7 +1,7 @@
 // The part about Daily Covid19 cases
 var d = new Date();
 dd = parseFloat(d.getMonth()) ;
-var currentDates = `${d.getMonth()+1}-${d.getDate()-1}-${d.getFullYear()}`;
+var currentDates = "3-31-2021" //`${d.getMonth()+1}-${d.getDate()-1}-${d.getFullYear()}`;
 var url = `https://covid19.mathdro.id/api/daily/${currentDates}`;
 console.log(url);
 var calculator= ()=>
@@ -19,16 +19,17 @@ var calculator= ()=>
                       var recovered = `Recovered: ${element.recovered}`;
                       var active = `Active case: ${element.active}`;
                       var conf = document.createElement("p");
-                      var deth =document.createElement("p");
+                      var deth = document.createElement("p");
                       var reco = document.createElement("p");
+                      var activ = document.createElement("p");
                       conf.innerHTML = confirmed;
                       deth.innerHTML = deaths;
                       reco.innerHTML = recovered;
-                      active.innerHTML = active;
+                      activ.innerHTML = active;
                       document.getElementById('covid').appendChild(conf)
                       document.getElementById('covid').appendChild(deth)
                       document.getElementById('covid').appendChild(reco)
-                      document.getElementById('covid').appendChild(active)
+                      document.getElementById('covid').appendChild(activ)
                       document.getElementById("state1").value = "";
                       document.getElementById("city1").value = "";
                   }
